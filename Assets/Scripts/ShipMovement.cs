@@ -14,6 +14,13 @@ public class ShipMovement : MonoBehaviour
     Vector2 minShipPosition;
     Vector2 maxShipPosition;
 
+    Firing firing;
+
+    void Awake()
+    {
+        firing = GetComponent<Firing>();
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -54,4 +61,13 @@ public class ShipMovement : MonoBehaviour
     {
         inputVector = value.Get<Vector2>();
     }
+
+    void OnFire(InputValue value)
+    {
+        if (firing != null)
+        {
+            firing.SetFire(value.isPressed);
+        }
+    }
+
 }

@@ -17,9 +17,13 @@ public class  FollowWay: MonoBehaviour
 
     void Start()
     {
-        currentSet = generator.GetCurrentSet();
-        wayElements = currentSet.GetWay();
-        transform.position = wayElements[elementIndex].position;
+        if (generator != null)
+        {
+            currentSet = generator.GetCurrentSet();
+            wayElements = currentSet.GetWay();
+            transform.position = wayElements[elementIndex].position;
+        }
+       
     }
 
     void Update()
@@ -30,7 +34,7 @@ public class  FollowWay: MonoBehaviour
     // Enemy follow the way by elements (points)
     void Follow()
     {
-        if (elementIndex < wayElements.Count)
+        if (wayElements != null && elementIndex < wayElements.Count)
         {
             Vector3 targetPosition = wayElements[elementIndex].position;
             float delta = currentSet.GetSpeed() * Time.deltaTime;

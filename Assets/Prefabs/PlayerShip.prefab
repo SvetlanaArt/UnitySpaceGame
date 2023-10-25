@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4669836737674953133}
   - component: {fileID: 8166830808525433289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: playerShip3_orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 67e77bd59c3a0df429eb4d7c2eaaf798, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -99,7 +99,8 @@ GameObject:
   - component: {fileID: -7411090828380367817}
   - component: {fileID: 4783690076254638773}
   - component: {fileID: -6098001531507803500}
-  m_Layer: 0
+  - component: {fileID: -6530839288980188082}
+  m_Layer: 6
   m_Name: PlayerShip
   m_TagString: player
   m_Icon: {fileID: 0}
@@ -271,3 +272,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 50
+--- !u!114 &-6530839288980188082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8736758861975791458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a862b360ae1ab5f41b55fa7c719890ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lizerPrefab: {fileID: 5455026510352957551, guid: 8136a3a538a157846a6acc65bf3fa9f1, type: 3}
+  lizerSpeed: 10
+  lazerLife: 5
+  lazerPeriod: 0.3
+  isFire: 0

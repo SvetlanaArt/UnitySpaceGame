@@ -2,15 +2,19 @@
 Space Shooter in Unity (editor ver 2022.3.4f1)
 
 About
+
 Space Shooter is a classic arcade-style shooting game where players control a spaceship and shoot down sets of enemy ships. 
 
 Done
+
 Background movement effect.
 Player control.
 Sets of enemies following the waypoint path are generated. 
 
 
 Developer's Guide
+
+Folder Scripts>
 
 class BackgroundController : MonoBehaviour
  	Background Movement. 
@@ -19,7 +23,22 @@ class BackgroundController : MonoBehaviour
 	
 class CameraWidthCorrection: MonoBehaviour
 	Correction of Camera width to fixed size in pixels.
-	Bound to GameObject Main Camera. 
+	Bounds to GameObject Main Camera. 
+
+class PlayerController : MonoBehaviour
+	Control Player.
+	Allows user to control the Player Ship. Uses Input System. 
+	Bounds to Prefab PlayerShip.
+
+class GenerateRandomTime : MonoBehaviour
+	Generate random value with params.
+	Bounds to GameObject RandomGenerator.
+
+class DestroyInvisibleObject : MonoBehaviour
+	Destroy gameObject which have left a visible area.
+	Bounds to Prefabs LazerEnamy*, LazerPlayer.
+
+Folder Scripts>Enemy>
 
 class EnemySetObject : ScriptableObject
 	Discribes a set of enemies, collects them in the List<GameObject> enemyPrefabs.
@@ -28,20 +47,35 @@ class EnemySetObject : ScriptableObject
 class  FollowWay: MonoBehaviour
 	Enemy Movement.
 	Moves the parent GameObject along the points specified by the List<Transform> wayElements.  
-	Bound to each Prefab EnemyShip.
+	Bounds to each Prefab EnemyShip.
 
 class GenerateEnemies : MonoBehaviour
 	Enemy Generator.
-	Using the execution of a coroutine this class instantiates sets of enemies discribed by the List<EnemySetObject>.
-	Bound to GameObject GenerateEnemies. 
+	Using the execution of a coroutine class instantiates sets of enemies discribed by the List<EnemySetObject>.
+	Bounds to GameObject GenerateEnemies. 
 
-class ShipMovement : MonoBehaviour
-	Control Player.
-	Allows user to control the Player Ship. Uses Input System. 
-	Bound to Prefab PlayerShip.
+Folder Scripts>Damage>
 
+class DamageMaker : MonoBehaviour
+	Makes damage.
+	Bounds to each Prefab that makes a damage.
 
+class LifeCounter : MonoBehaviour
+	Controls life count and destroys objects when life is over.
+	Bounds to each Prefab that has a life.
+
+class Firing : MonoBehaviour
+	Generates laser bullets.
+	Using the execution of a coroutine class instantiates sets of lazer bullets.
+	Bounds to Prefabs EnemyShip* and PlayerShip.
 	
+class AutoFiring : MonoBehaviour
+	Control firing process for enemies.
+	Bounds to Prefabs EnemyShip*
+
+Particle Systems>
+
 Stars GameObject - Movement of stars.
 	Parent object - Background.
 	Contains a Particle System to simulate the movement of stars.
+

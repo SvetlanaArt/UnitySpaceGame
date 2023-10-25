@@ -28,7 +28,7 @@ public class GenerateEnemies : MonoBehaviour
                 currentSet = set;
                 Instantiate(set.GetEnemyPrefab(i),
                             set.GetStartElement().position,
-                            Quaternion.identity,
+                            Quaternion.Euler(0,0,180),
                             transform);
                 yield return new WaitForSeconds(set.GetRandomTimeBetweenEnemy(false));
             }

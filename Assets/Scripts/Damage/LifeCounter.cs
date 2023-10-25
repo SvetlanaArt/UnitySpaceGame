@@ -6,11 +6,19 @@ public class LifeCounter : MonoBehaviour
 {
     [SerializeField] int life = 100;
 
-
+    public int Life {  
+        get 
+        {             
+            return life; 
+        } 
+        set {  
+            life = value; 
+        } 
+    }
     void OnTriggerEnter2D(Collider2D spaceBody)
     {
         DamageMaker damageMaker = spaceBody.GetComponent<DamageMaker>();
-        if (tag != spaceBody.tag && damageMaker != null)
+        if (damageMaker != null)
         {
             TakeDamage(damageMaker.MakedDamage());
         }
