@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 4783690076254638773}
   - component: {fileID: -6098001531507803500}
   - component: {fileID: -6530839288980188082}
+  - component: {fileID: 583000168750415431}
   m_Layer: 6
   m_Name: PlayerShip
   m_TagString: player
@@ -286,6 +287,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lizerPrefab: {fileID: 5455026510352957551, guid: 8136a3a538a157846a6acc65bf3fa9f1, type: 3}
   lizerSpeed: 10
-  lazerLife: 5
   lazerPeriod: 0.3
-  isFire: 0
+  lazerTimeVariance: 0.1
+  minimumTime: 0.1
+--- !u!114 &583000168750415431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8736758861975791458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d35661d48ef0f458aa19939caa6b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect: {fileID: 400335492344958384, guid: 443bff3c8668ace4489e83a2a5eab3b4, type: 3}

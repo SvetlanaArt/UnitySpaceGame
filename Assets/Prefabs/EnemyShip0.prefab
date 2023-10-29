@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1728939040029265441}
   - component: {fileID: -313889255228160387}
   - component: {fileID: -8557256239531914579}
+  - component: {fileID: 6897545309164682374}
   m_Layer: 7
   m_Name: EnemyShip0
   m_TagString: enemy
@@ -167,9 +168,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lizerPrefab: {fileID: 5455026510352957551, guid: 50fc1b058069c044581ded72cc581741, type: 3}
   lizerSpeed: 12
-  lazerLife: 6
   lazerPeriod: 1.1
-  autoFire: 1
+  lazerTimeVariance: 0.1
+  minimumTime: 0.1
+--- !u!114 &6897545309164682374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443920152391894715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d35661d48ef0f458aa19939caa6b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect: {fileID: 400335492344958384, guid: 443bff3c8668ace4489e83a2a5eab3b4, type: 3}
 --- !u!1 &5571183621550462101
 GameObject:
   m_ObjectHideFlags: 0
