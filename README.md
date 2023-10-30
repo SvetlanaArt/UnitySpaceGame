@@ -25,6 +25,10 @@ class CameraWidthCorrection: MonoBehaviour
 	Correction of Camera width to fixed size in pixels.
 	Bounds to GameObject Main Camera. 
 
+class CameraEffect : MonoBehaviour
+	Play camera effect to enlarge explosion effect.
+	Bounds to GameObject Main Camera. 
+
 class PlayerController : MonoBehaviour
 	Control Player.
 	Allows user to control the Player Ship. Uses Input System. 
@@ -73,9 +77,18 @@ class AutoFiring : MonoBehaviour
 	Control firing process for enemies.
 	Bounds to Prefabs EnemyShip*
 
+class ExplosionEffect : MonoBehaviour
+	Play explosion effect by instantiating particle system (Prefab Explosion).
+	Bounds to Prefabs PlayerShip.
+
+
 Particle Systems>
 
 Stars GameObject - Movement of stars.
 	Parent object - Background.
 	Contains a Particle System to simulate the movement of stars.
+
+Explosion Prefab - Explosion effect.
+	Instantiates in ExplosionEffect class.
+	Contains a Particle System to simulate an explosion using material Mat_explosion.
 

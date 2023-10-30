@@ -5,8 +5,21 @@ using UnityEngine;
 public class ExplosionEffect : MonoBehaviour
 {
     [SerializeField] ParticleSystem effect;
+    [SerializeField] bool applyCameraEffect;
+
+    CameraEffect cameraEffect;
+    private void Awake()
+    {
+        cameraEffect = Camera.main.GetComponent<CameraEffect>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
+    {
+        PlayExplosionEffect(collision);
+        PlayCameraEffect();
+    }
+
+    private void PlayExplosionEffect (Collider2D collision)
     {
         if (effect != null)
         {
@@ -17,4 +30,13 @@ public class ExplosionEffect : MonoBehaviour
             Destroy(instance.gameObject, lifeTime);
         }
     }
+    private void PlayCameraEffect()
+    {
+        if (applyCameraEffect && cameraEffect != null)
+        {
+            cameraEffect.MakeCameraEffect();
+        }
+    }
+
+
 }
