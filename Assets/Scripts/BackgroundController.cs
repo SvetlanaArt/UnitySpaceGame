@@ -4,29 +4,25 @@ using UnityEngine;
 
 public class BackgroundController : MonoBehaviour
 {
-    public float speed = 0.5f;
+    
     [SerializeField]
-    private SpriteRenderer spriteBack1; //the upper sprite for background
+    float speed = 0.2f;
+    
+    private Vector2 delta;
+    Material matBack;
 
-    private Vector2 startPosition;
-    private float maxPosition;
-    
-    
+
     void Awake()
     {
-        startPosition = transform.position;
-        maxPosition = spriteBack1.transform.position.y - startPosition.y;
+        delta = new Vector2(0f, 0f);
+        matBack = GetComponent<SpriteRenderer>().material;
     }
 
     // Update is called once per frame
     void Update()
     {
         //move background
-        transform.Translate(Vector3.down * speed * Time.deltaTime);
-        //check position to emulate endless background 
-        if(transform.position.y <= -maxPosition)
-        {
-            transform.position = startPosition;
-        }
+        delta.y = speed * Time.deltaTime;
+        matBack.mainTextureOffset += delta;
     }
 }
