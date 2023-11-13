@@ -5,7 +5,9 @@ using UnityEngine;
 public class GenerateEnemies : MonoBehaviour
 {
     // current way and direction for enemy movement
+    [SerializeField] bool repeateEnemySets;
     [SerializeField] List<EnemySetObject> enemySets;
+    
     EnemySetObject currentSet;
 
     void Start()
@@ -21,18 +23,22 @@ public class GenerateEnemies : MonoBehaviour
     // Generate enemies
     IEnumerator Generator()
     {
-        foreach (EnemySetObject set in enemySets)
+        while (repeateEnemySets)
         {
-            for (int i = 0; i < set.GetEnemiesCount(); i++)
+
+            foreach (EnemySetObject set in enemySets)
             {
-                currentSet = set;
-                Instantiate(set.GetEnemyPrefab(i),
-                            set.GetStartElement().position,
-                            Quaternion.Euler(0,0,180),
-                            transform);
-                yield return new WaitForSeconds(set.GetRandomTimeBetweenEnemy(false));
+                for (int i = 0; i < set.GetEnemiesCount(); i++)
+                {
+                    currentSet = set;
+                    Instantiate(set.GetEnemyPrefab(i),
+                                set.GetStartElement().position,
+                                Quaternion.Euler(0, 0, 180),
+                                transform);
+                    yield return new WaitForSeconds(set.GetRandomTimeBetweenEnemy(false));
+                }
+                yield return new WaitForSeconds(set.GetRandomTimeBetweenEnemy(true));
             }
-            yield return new WaitForSeconds(set.GetRandomTimeBetweenEnemy(true));
         }
     }
 }

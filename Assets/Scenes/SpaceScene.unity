@@ -306,9 +306,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8d93ff7e420e444a472066c8971a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  repeateEnemySets: 1
   enemySets:
   - {fileID: 11400000, guid: 67885862c689d5442b278251c63896be, type: 2}
   - {fileID: 11400000, guid: b4fcdd796a7b6a94ca86b5688e253ddb, type: 2}
+  - {fileID: 11400000, guid: 20ed3112097c1a0428dc6613c26d818e, type: 2}
 --- !u!4 &1112259642
 Transform:
   m_ObjectHideFlags: 0
