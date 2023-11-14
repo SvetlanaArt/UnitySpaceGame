@@ -18,3 +18,7 @@ MonoBehaviour:
   - {fileID: 443920152391894715, guid: 6f240856342ba9949abff0ee25c4db88, type: 3}
   wayPrefab: {fileID: 5447271410347375945, guid: daced7cf02f8f4a459fe8f4df0e007ca, type: 3}
   speed: 5
+  timeBetweenEnemyGenerate: 0.8
+  timeVariance: 0.1
+  minimumTime: 0.3
+  timeBetweenSetGenerate: 2

@@ -7,15 +7,19 @@ public class ExplosionEffect : MonoBehaviour
     [SerializeField] ParticleSystem effect;
     [SerializeField] bool applyCameraEffect;
 
+    AudioController audioControl;
+
     CameraEffect cameraEffect;
     private void Awake()
     {
         cameraEffect = Camera.main.GetComponent<CameraEffect>();
+        audioControl = FindObjectOfType<AudioController>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayExplosionEffect(collision);
+        audioControl.PlayHitSound();
         PlayCameraEffect();
     }
 

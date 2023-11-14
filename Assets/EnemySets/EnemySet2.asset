@@ -20,6 +20,6 @@ MonoBehaviour:
   wayPrefab: {fileID: 7685550733893495996, guid: d31acd05bb992d14f89c207f89c84db7, type: 3}
   speed: 5
   timeBetweenEnemyGenerate: 0.8
-  timeVariance: 0
+  timeVariance: 0.1
   minimumTime: 0.3
   timeBetweenSetGenerate: 2

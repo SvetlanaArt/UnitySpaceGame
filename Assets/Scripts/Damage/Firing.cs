@@ -13,14 +13,18 @@ public class Firing : MonoBehaviour
 
     bool isFire;
     GenerateRandomTime randomTime;
+    float nextTime;
 
     Coroutine fireCoroutine;
+
+    AudioController audioControl;
 
     private void Awake()
     { 
         isFire = false;
         randomTime = FindObjectOfType<GenerateRandomTime>();
         fireCoroutine = null;
+        audioControl = FindObjectOfType<AudioController>();
     }
  
     public void SetFire(bool enable)
@@ -59,8 +63,11 @@ public class Firing : MonoBehaviour
             {
                 rbody.velocity = transform.up * lizerSpeed;
             }
-            yield return new WaitForSeconds(randomTime.GetRandomTimeWithVariance(
-                                            lazerPeriod, lazerTimeVariance,minimumTime));
+            audioControl.PlayLaserSound();
+            nextTime = randomTime.GetRandomTimeWithVariance(lazerPeriod,
+                                                            lazerTimeVariance,
+                                                            minimumTime);
+            yield return new WaitForSeconds(nextTime);
         }
     }
 

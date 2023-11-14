@@ -10,6 +10,8 @@ Done
 Background movement effect.
 Player control.
 Sets of enemies following the waypoint path are generated. 
+Firing and damage.
+SOund effects and background music.
 
 
 Developer's Guide
@@ -29,7 +31,7 @@ class CameraEffect : MonoBehaviour
 	Play camera effect to enlarge explosion effect.
 	Bounds to GameObject Main Camera. 
 
-class PlayerController : MonoBehaviour
+class ShipController : MonoBehaviour
 	Control Player.
 	Allows user to control the Player Ship. Uses Input System. 
 	Bounds to Prefab PlayerShip.
@@ -41,6 +43,10 @@ class GenerateRandomTime : MonoBehaviour
 class DestroyInvisibleObject : MonoBehaviour
 	Destroy gameObject which have left a visible area.
 	Bounds to Prefabs LazerEnamy*, LazerPlayer.
+
+class AudioController : MonoBehaviour
+	Play sounds effects.
+	Bounds to GameObject AudioController.
 
 Folder Scripts>Enemy>
 
@@ -91,4 +97,8 @@ Stars GameObject - Movement of stars.
 Explosion Prefab - Explosion effect.
 	Instantiates in ExplosionEffect class.
 	Contains a Particle System to simulate an explosion using material Mat_explosion.
+
+Sources:
+https://opengameart.org/ - background music.
+https://kenney.nl/ - sounds and sprites.
 
