@@ -87,6 +87,10 @@ class ExplosionEffect : MonoBehaviour
 	Play explosion effect by instantiating particle system (Prefab Explosion).
 	Bounds to Prefabs PlayerShip.
 
+public class UIDisplay : MonoBehaviour
+	Display score in and amount of life using UI elements (TextMeshPro and Slider).
+	Bounds to Canvas.
+
 
 Particle Systems>
 
@@ -100,5 +104,5 @@ Explosion Prefab - Explosion effect.
 
 Sources:
 https://opengameart.org/ - background music.
-https://kenney.nl/ - sounds and sprites.
+https://kenney.nl/ - sounds, font and sprites.
 

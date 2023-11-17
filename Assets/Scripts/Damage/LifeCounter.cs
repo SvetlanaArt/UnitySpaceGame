@@ -4,17 +4,29 @@ using UnityEngine;
 
 public class LifeCounter : MonoBehaviour
 {
-    [SerializeField] int life = 100;
+    [SerializeField] int startLife = 100;
+    [SerializeField] bool isScoreObject = false;
 
-    public int Life {  
-        get 
-        {             
-            return life; 
-        } 
-        set {  
-            life = value; 
-        } 
+    private ScoreController scoreControl;
+
+    public int Life { get; private set; }
+
+    public int getStartLife()
+    {
+        return startLife;
     }
+
+    public void resetLife()
+    {
+        Life = startLife;
+    }
+
+    private void Awake()
+    {
+        resetLife();
+        scoreControl = FindObjectOfType<ScoreController>();
+    }
+
     void OnTriggerEnter2D(Collider2D spaceBody)
     {
         DamageMaker damageMaker = spaceBody.GetComponent<DamageMaker>();
@@ -26,7 +38,7 @@ public class LifeCounter : MonoBehaviour
 
     void TakeDamage(int damage)
     {
-        life -= damage;
+        Life -= damage;
     }
 
     private void Update()
@@ -36,8 +48,13 @@ public class LifeCounter : MonoBehaviour
 
     void CheckLife()
     {
-        if (life <= 0)
+        if (Life <= 0)
         {
+            if (scoreControl != null && isScoreObject)
+            {
+                scoreControl.addScore(startLife);
+                Debug.Log(scoreControl.Score);
+            }
             Destroy(gameObject);
         }
     }
