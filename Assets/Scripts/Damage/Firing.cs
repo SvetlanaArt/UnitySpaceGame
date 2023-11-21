@@ -12,7 +12,7 @@ public class Firing : MonoBehaviour
     [SerializeField] float minimumTime = 0.1f;
 
     bool isFire;
-    GenerateRandomTime randomTime;
+    RandomGenerator randomTime;
     float nextTime;
 
     Coroutine fireCoroutine;
@@ -22,7 +22,7 @@ public class Firing : MonoBehaviour
     private void Awake()
     { 
         isFire = false;
-        randomTime = FindObjectOfType<GenerateRandomTime>();
+        randomTime = FindObjectOfType<RandomGenerator>();
         fireCoroutine = null;
         audioControl = FindObjectOfType<AudioController>();
     }
@@ -53,7 +53,8 @@ public class Firing : MonoBehaviour
 
     IEnumerator Fire()
     {
-        while(true)
+        nextTime = lazerPeriod;
+        while (true)
         {
             GameObject laserBullet = Instantiate( lizerPrefab, 
                                                   transform.position, 
@@ -64,9 +65,12 @@ public class Firing : MonoBehaviour
                 rbody.velocity = transform.up * lizerSpeed;
             }
             audioControl.PlayLaserSound();
-            nextTime = randomTime.GetRandomTimeWithVariance(lazerPeriod,
+            if (randomTime != null)
+            {
+                nextTime = randomTime.GetRandomTimeWithVariance(lazerPeriod,
                                                             lazerTimeVariance,
                                                             minimumTime);
+            }
             yield return new WaitForSeconds(nextTime);
         }
     }

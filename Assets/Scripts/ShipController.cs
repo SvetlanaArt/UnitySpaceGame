@@ -16,9 +16,12 @@ public class ShipController : MonoBehaviour
 
     Firing firing;
 
+    private SceneLoader sceneLoader;
+
     void Awake()
     {
         firing = GetComponent<Firing>();
+        sceneLoader = FindObjectOfType<SceneLoader>();
     }
 
 
@@ -67,6 +70,14 @@ public class ShipController : MonoBehaviour
         if (firing != null)
         {
             firing.SetFire(value.isPressed);
+        }
+    }
+
+    void OnDestroy()
+    {
+        if (sceneLoader != null)
+        {
+            sceneLoader.LoadGameOver();
         }
     }
 

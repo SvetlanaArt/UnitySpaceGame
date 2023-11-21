@@ -11,7 +11,8 @@ Background movement effect.
 Player control.
 Sets of enemies following the waypoint path are generated. 
 Firing and damage.
-SOund effects and background music.
+Sound effects and background music.
+Scenes Menu, Game and GameOver.
 
 
 Developer's Guide
@@ -36,7 +37,7 @@ class ShipController : MonoBehaviour
 	Allows user to control the Player Ship. Uses Input System. 
 	Bounds to Prefab PlayerShip.
 
-class GenerateRandomTime : MonoBehaviour
+class RandomGenerator : MonoBehaviour
 	Generate random value with params.
 	Bounds to GameObject RandomGenerator.
 
@@ -47,6 +48,14 @@ class DestroyInvisibleObject : MonoBehaviour
 class AudioController : MonoBehaviour
 	Play sounds effects.
 	Bounds to GameObject AudioController.
+
+class UIDisplay : MonoBehaviour
+	Display score in and amount of life using UI elements (TextMeshPro and Slider).
+	Bounds to Canvas.
+
+class SceneLoader : MonoBehaviour
+	Load scences and quit the game.
+	Bounds to Prefab SceneLoader.
 
 Folder Scripts>Enemy>
 
@@ -87,9 +96,7 @@ class ExplosionEffect : MonoBehaviour
 	Play explosion effect by instantiating particle system (Prefab Explosion).
 	Bounds to Prefabs PlayerShip.
 
-public class UIDisplay : MonoBehaviour
-	Display score in and amount of life using UI elements (TextMeshPro and Slider).
-	Bounds to Canvas.
+
 
 
 Particle Systems>

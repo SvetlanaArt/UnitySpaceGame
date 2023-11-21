@@ -25,9 +25,9 @@ public class GenerateEnemies : MonoBehaviour
     {
         while (repeateEnemySets)
         {
-
             foreach (EnemySetObject set in enemySets)
             {
+                set.enableRandomGenrator();
                 for (int i = 0; i < set.GetEnemiesCount(); i++)
                 {
                     currentSet = set;

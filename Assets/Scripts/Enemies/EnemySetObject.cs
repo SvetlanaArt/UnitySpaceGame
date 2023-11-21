@@ -13,13 +13,9 @@ public class EnemySetObject : ScriptableObject
     [SerializeField] float minimumTime = 0.3f;
     [SerializeField] float timeBetweenSetGenerate = 2f;
 
-    GenerateRandomTime randomTime;
-    private void OnEnable()
-    {
-        randomTime = FindObjectOfType<GenerateRandomTime>();
-    }
+    RandomGenerator randomTime;
  
-    // Take first points for way
+     // Take first points for way
     public Transform GetStartElement()
     {
         return wayPrefab.GetChild(0);
@@ -48,12 +44,24 @@ public class EnemySetObject : ScriptableObject
         return speed;
     }
 
+    public void enableRandomGenrator() 
+    {
+        if (randomTime == null) 
+        {
+            randomTime = FindObjectOfType<RandomGenerator>();
+        }
+     }
+
     public float GetRandomTimeBetweenEnemy(bool isEndOfSet)
     {
-        return randomTime.GetRandomTimeWithVariance(
-           isEndOfSet ? timeBetweenSetGenerate : timeBetweenEnemyGenerate,
-           timeVariance,
-           minimumTime); 
+        float time = isEndOfSet ? timeBetweenSetGenerate : timeBetweenEnemyGenerate;
+        if (randomTime != null)
+        {
+            time = randomTime.GetRandomTimeWithVariance(time,
+                    timeVariance,
+                    minimumTime);
+        }
+        return time;
     }
     
   }

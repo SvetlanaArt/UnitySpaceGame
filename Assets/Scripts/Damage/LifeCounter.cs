@@ -8,7 +8,7 @@ public class LifeCounter : MonoBehaviour
     [SerializeField] bool isScoreObject = false;
 
     private ScoreController scoreControl;
-
+ 
     public int Life { get; private set; }
 
     public int getStartLife()
@@ -53,7 +53,6 @@ public class LifeCounter : MonoBehaviour
             if (scoreControl != null && isScoreObject)
             {
                 scoreControl.addScore(startLife);
-                Debug.Log(scoreControl.Score);
             }
             Destroy(gameObject);
         }
