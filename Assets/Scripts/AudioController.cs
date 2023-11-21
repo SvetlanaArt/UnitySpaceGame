@@ -12,6 +12,26 @@ public class AudioController : MonoBehaviour
     [SerializeField] AudioClip hitSound;
     [SerializeField][Range(0f, 1f)] float hitVolume = 1f;
 
+    static AudioController instance;
+
+    public void Awake()
+    {
+        ChackSingleton();
+    }
+
+    void ChackSingleton()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
+    }
 
     public void PlayLaserSound()
     {

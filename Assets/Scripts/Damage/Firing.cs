@@ -64,7 +64,10 @@ public class Firing : MonoBehaviour
             {
                 rbody.velocity = transform.up * lizerSpeed;
             }
-            audioControl.PlayLaserSound();
+            if (audioControl != null)
+            {
+                audioControl.PlayLaserSound();
+            }
             if (randomTime != null)
             {
                 nextTime = randomTime.GetRandomTimeWithVariance(lazerPeriod,

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class UIDisplay : MonoBehaviour
+public class UIPlayer : MonoBehaviour
 {
     [Header("Life")]
     [SerializeField] Slider lifeSlider;

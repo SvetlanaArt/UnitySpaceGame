@@ -1,14 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScoreController : MonoBehaviour
 {
     public int Score { get; private set; }
 
+    static ScoreController instance;
+
     private void Awake()
     {
-        setStartScore();
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            setStartScore();
+        }
+       CheckSingleton();
+    }
+
+    void CheckSingleton()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
     }
 
     public void addScore(int value)
@@ -17,7 +38,14 @@ public class ScoreController : MonoBehaviour
     }
 
     public void setStartScore() 
-    { 
-        Score = 0; 
+    {
+        if (instance != null)
+        {
+            instance.Score = 0;
+        }
+        else 
+        { 
+            Score = 0;
+        }
     }
 }

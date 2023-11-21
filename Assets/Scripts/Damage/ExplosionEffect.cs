@@ -19,7 +19,10 @@ public class ExplosionEffect : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayExplosionEffect(collision);
-        audioControl.PlayHitSound();
+        if (audioControl != null)
+        {
+            audioControl.PlayHitSound();
+        }
         PlayCameraEffect();
     }
 
@@ -34,6 +37,7 @@ public class ExplosionEffect : MonoBehaviour
             Destroy(instance.gameObject, lifeTime);
         }
     }
+
     private void PlayCameraEffect()
     {
         if (applyCameraEffect && cameraEffect != null)
