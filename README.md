@@ -9,13 +9,26 @@ Done
 
 Background movement effect.
 Player control.
-Sets of enemies following the waypoint path are generated. 
+Sets of enemies. 
 Firing and damage.
 Sound effects and background music.
-Scenes Menu, Game and GameOver.
+Scenes: Menu, Game and GameOver.
 
 
 Developer's Guide
+
+
+Scenes>
+
+0 - Menu
+	Presents a main menu of the game.
+
+1 - Game
+	Game process.
+
+2 - Game Over
+	Displays a result of game when a player lost.
+
 
 Folder Scripts>
 
@@ -57,6 +70,7 @@ class SceneLoader : MonoBehaviour
 	Load scences and quit the game.
 	Bounds to Prefab SceneLoader.
 
+
 Folder Scripts>Enemy>
 
 class EnemySetObject : ScriptableObject
@@ -72,6 +86,7 @@ class GenerateEnemies : MonoBehaviour
 	Enemy Generator.
 	Using the execution of a coroutine class instantiates sets of enemies discribed by the List<EnemySetObject>.
 	Bounds to GameObject GenerateEnemies. 
+
 
 Folder Scripts>Damage>
 
@@ -97,6 +112,15 @@ class ExplosionEffect : MonoBehaviour
 	Bounds to Prefabs PlayerShip.
 
 
+Folder Scripts>UI>
+
+class UIPlayer : MonoBehaviour
+	Display score in and amount of life using UI elements (TextMeshPro and Slider).
+	Bounds to Game>Canvas.
+
+class UIGameOver : MonoBehaviour
+	Display score in scene GameOver using UI elements (TextMeshPro).
+	Bounds to GameOver>Canvas.
 
 
 Particle Systems>
@@ -108,6 +132,7 @@ Stars GameObject - Movement of stars.
 Explosion Prefab - Explosion effect.
 	Instantiates in ExplosionEffect class.
 	Contains a Particle System to simulate an explosion using material Mat_explosion.
+
 
 Sources:
 https://opengameart.org/ - background music.

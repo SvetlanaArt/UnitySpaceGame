@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69b2ad7758e3fa46836749271d266fe, type: 3}
+  m_Name: EnemySet6
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 443920152391894715, guid: d499f7d2b1c2f454dbedfbe80a21900f, type: 3}
+  - {fileID: 443920152391894715, guid: 6f240856342ba9949abff0ee25c4db88, type: 3}
+  - {fileID: 443920152391894715, guid: 6f240856342ba9949abff0ee25c4db88, type: 3}
+  - {fileID: 443920152391894715, guid: 6f240856342ba9949abff0ee25c4db88, type: 3}
+  - {fileID: 8585890779448137402, guid: 76a765dcd4911014286cc6fbd6fabaa9, type: 3}
+  wayPrefab: {fileID: 7685550733893495996, guid: dff1cac9e2b51ef4bba7758ff1e1328f, type: 3}
+  speed: 4
+  timeBetweenEnemyGenerate: 0.8
+  timeVariance: 0.2
+  minimumTime: 0.3
+  timeBetweenSetGenerate: 2

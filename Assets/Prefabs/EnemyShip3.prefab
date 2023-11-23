@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -8557256239531914579}
   - component: {fileID: 6897545309164682374}
   m_Layer: 7
-  m_Name: EnemyShip0
+  m_Name: EnemyShip3
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b43c82b1297c2d4c949ff640872cff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startLife: 20
+  startLife: 30
   isScoreObject: 1
 --- !u!114 &-313889255228160387
 MonoBehaviour:
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b03d905fcf7c7a4491815514b4c3ef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 30
 --- !u!114 &-8557256239531914579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lizerPrefab: {fileID: 5455026510352957551, guid: 50fc1b058069c044581ded72cc581741, type: 3}
-  lizerSpeed: 12
+  lizerSpeed: 10
   lazerPeriod: 1.1
   lazerTimeVariance: 0.1
   minimumTime: 0.1
@@ -260,7 +260,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: f69b28333e32326428f768bfdd2312ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 179f4b7b67a37be499ad4220958c1942, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

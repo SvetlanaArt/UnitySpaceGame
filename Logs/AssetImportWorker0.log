@@ -3928,3 +3928,631 @@ Received Import Request.
 Start importing Assets/Scripts/ScoreController.cs using Guid(0242ec08b21b7564785004762d5758d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c2777623edc41e645abbff49a80c3b') in 0.030931 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 66547.423521 seconds.
+  path: Assets/EnemySets/Way2 1.prefab
+  artifactKey: Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way2 1.prefab using Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cd98782123cd125c81cc34dca2c692') in 1.211257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.766015 seconds.
+  path: Assets/EnemySets/Way3.prefab
+  artifactKey: Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way3.prefab using Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68c28acc7ef371e856f88a6ddb91e41') in 0.010429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 23.750787 seconds.
+  path: Assets/EnemySets/Way2 1.prefab
+  artifactKey: Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way2 1.prefab using Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a84072549734bfb0b148e1d0754267f') in 0.020053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.925857 seconds.
+  path: Assets/EnemySets/Way2 2.prefab
+  artifactKey: Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way2 2.prefab using Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7665b1bbb8f6731aa05f2cc59bd620') in 0.012672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.264669 seconds.
+  path: Assets/EnemySets/Way2 3.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way2 3.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ae05ba5b5698d6cd7a70730567f803') in 0.012952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 8.659066 seconds.
+  path: Assets/EnemySets/Way4.prefab
+  artifactKey: Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way4.prefab using Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7821ffd291f68d395870cde4a51de11') in 0.005449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 9.082928 seconds.
+  path: Assets/EnemySets/Way5.prefab
+  artifactKey: Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way5.prefab using Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36723a4e9a5f093fe0e3b0b77a8916d5') in 0.004511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 7.257472 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d568e6b8aa0815b003b6f9a5128fecb') in 0.005438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 37.523406 seconds.
+  path: Assets/EnemySets/Way5.prefab
+  artifactKey: Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way5.prefab using Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c83c082b8639b4240ce3e63de2e0b0a') in 0.005017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.592110 seconds.
+  path: Assets/EnemySets/Way5.prefab
+  artifactKey: Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way5.prefab using Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac772e3dd64ac8b62bf2a0dad275ca3f') in 0.008789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.233533 seconds.
+  path: Assets/EnemySets/Way5.prefab
+  artifactKey: Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way5.prefab using Guid(990e98c96cb1437469389ec0fbc87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80656930d5452a74171d3591c518f53') in 0.004366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 30.126838 seconds.
+  path: Assets/EnemySets/Way4.prefab
+  artifactKey: Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way4.prefab using Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4291b70c7d05e0c89371e22a54ed1d') in 0.004875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 8.425625 seconds.
+  path: Assets/EnemySets/Way4.prefab
+  artifactKey: Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way4.prefab using Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53491414c350ca2b41312ced8d37cc70') in 0.006391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.860886 seconds.
+  path: Assets/EnemySets/Way4.prefab
+  artifactKey: Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way4.prefab using Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7283b8a819839f75f2533d7e9f4c75') in 0.004554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.411040 seconds.
+  path: Assets/EnemySets/Way4.prefab
+  artifactKey: Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way4.prefab using Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae41a33a91d28ef158934a5cb278f4fd') in 0.007426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.851377 seconds.
+  path: Assets/EnemySets/Way4.prefab
+  artifactKey: Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way4.prefab using Guid(5a21c6c3875fabd4b816172dd4216966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07d1462d9bb473dd6dad0aeeed81ceb') in 0.007190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 27.886346 seconds.
+  path: Assets/EnemySets/Way3.prefab
+  artifactKey: Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way3.prefab using Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ca8c357f4202a586e5cae34ee0d8bc') in 0.009409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 9.851760 seconds.
+  path: Assets/EnemySets/Way3.prefab
+  artifactKey: Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way3.prefab using Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c326f2b5e5ae805b016c14659605e7') in 0.006624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.628359 seconds.
+  path: Assets/EnemySets/Way3.prefab
+  artifactKey: Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way3.prefab using Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9157c2af606a9cc0571598e95ec469') in 0.005715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.624913 seconds.
+  path: Assets/EnemySets/Way3.prefab
+  artifactKey: Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way3.prefab using Guid(e706bd06170c10144be05211cbce9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d9f2a1de58e2bee5b3109371b44119') in 0.007282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 12.104600 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576cf95a932fd9c3c9481af279b53978') in 0.005391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.424627 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fa78adb2be119f59be61b9ca536d6c') in 0.005522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.433751 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e34aec3cf81c2baf9cbb02902af549') in 0.005360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.020955 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed673fa8a0ddeed3a352e6824a16e65') in 0.007628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.435703 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b0b7c482e11fac659dcb5884641823') in 0.005971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.656699 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decb6e5df81fe1365ef78ad95f22971d') in 0.004529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.450885 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9288f9d52ca09c10826cdaace07465') in 0.006576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 16.936968 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2331a3d04df6f31a21f5c068bb1dc6') in 0.004825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.857771 seconds.
+  path: Assets/EnemySets/Way6.prefab
+  artifactKey: Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/Way6.prefab using Guid(dff1cac9e2b51ef4bba7758ff1e1328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509cbbba3bcb32ca2bd81f313e85a023') in 0.003802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 19.619710 seconds.
+  path: Assets/Prefabs/EnemyShip0.prefab
+  artifactKey: Guid(6f240856342ba9949abff0ee25c4db88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0.prefab using Guid(6f240856342ba9949abff0ee25c4db88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16413bf39fe5cbef92f6e143560b3388') in 0.630122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/PlayerShip.prefab
+  artifactKey: Guid(bdead9675b1678140a176e7ca2004f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerShip.prefab using Guid(bdead9675b1678140a176e7ca2004f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fab6a90051c6d3263ab5f97fbf57bd3') in 0.156148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 8.346974 seconds.
+  path: Assets/Prefabs/Way2.prefab
+  artifactKey: Guid(30c2e86f1f890da4b837f5e17b089e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Way2.prefab using Guid(30c2e86f1f890da4b837f5e17b089e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aae08bdd9fa9ee521eb3a729f3c88b3') in 0.005364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 12.928715 seconds.
+  path: Assets/Prefabs/EnemyShip0 1.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0 1.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350045cf6bde0bf0a407b5da5eb301fc') in 0.029934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 69.417143 seconds.
+  path: Assets/Prefabs/EnemyShip0 1.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0 1.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66bb37a64fc6b810224db91b2616fe7') in 0.036540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 5.043272 seconds.
+  path: Assets/Prefabs/EnemyShip0 2.prefab
+  artifactKey: Guid(d499f7d2b1c2f454dbedfbe80a21900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0 2.prefab using Guid(d499f7d2b1c2f454dbedfbe80a21900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322e7bd9fa66d422097cd62b301a3beb') in 0.024289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 37.530854 seconds.
+  path: Assets/Prefabs/EnemyShip0 1.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0 1.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc641592a08b995c4d04ab2ac32fb38a') in 0.030571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 10.007060 seconds.
+  path: Assets/Prefabs/EnemyShip2.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip2.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a48e0312d6fb8c3de5af66fefb2e29') in 0.017545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 39.255639 seconds.
+  path: Assets/Prefabs/EnemyShip0 2.prefab
+  artifactKey: Guid(d499f7d2b1c2f454dbedfbe80a21900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0 2.prefab using Guid(d499f7d2b1c2f454dbedfbe80a21900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7de5922cd16f62e8c6cb8642fea3691') in 0.034996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 44.127435 seconds.
+  path: Assets/Prefabs/EnemyShip1.prefab
+  artifactKey: Guid(76a765dcd4911014286cc6fbd6fabaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip1.prefab using Guid(76a765dcd4911014286cc6fbd6fabaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fb9823b255d39c77801f0af69fc7c1') in 0.048442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 15.348546 seconds.
+  path: Assets/Prefabs/EnemyShip3.prefab
+  artifactKey: Guid(d499f7d2b1c2f454dbedfbe80a21900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip3.prefab using Guid(d499f7d2b1c2f454dbedfbe80a21900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc70802417441f7bffa0ae0d3aaac0ab') in 0.018096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 68.513243 seconds.
+  path: Assets/Prefabs/EnemyShip1.prefab
+  artifactKey: Guid(76a765dcd4911014286cc6fbd6fabaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip1.prefab using Guid(76a765dcd4911014286cc6fbd6fabaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb4e1b839a49c1b47304282b2b29316') in 0.017914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 14.952849 seconds.
+  path: Assets/Prefabs/EnemyShip2.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip2.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68888c09746158ec801af56c46fb9bf9') in 0.017247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 4.008964 seconds.
+  path: Assets/Prefabs/EnemyShip2.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip2.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e29a82bce24eb1a679a987757837668') in 0.023769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.180615 seconds.
+  path: Assets/Prefabs/EnemyShip2.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip2.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e1fbf292adbd95bc60f8fa560e9fc7') in 0.027586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 8.057053 seconds.
+  path: Assets/Prefabs/EnemyShip2.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip2.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150cb9d0e1c3ba3c01ba42ae599cee27') in 0.020558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 7.229081 seconds.
+  path: Assets/Prefabs/EnemyShip2.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip2.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4140cd12a16b61dd09568fd52dc72f5') in 0.018555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 2.203561 seconds.
+  path: Assets/Prefabs/EnemyShip2.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip2.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f6da8f81723c79e537170a9e2f854d') in 0.018020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 1.800160 seconds.
+  path: Assets/Prefabs/EnemyShip2.prefab
+  artifactKey: Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip2.prefab using Guid(3dbff031816bc5647b69aeed2994dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dac3fdf321fa342f2ec8d0e605d3ed') in 0.015793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 32.590690 seconds.
+  path: Assets/Prefabs/EnemyShip0.prefab
+  artifactKey: Guid(6f240856342ba9949abff0ee25c4db88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0.prefab using Guid(6f240856342ba9949abff0ee25c4db88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c171fbb38d3649bacfa7e902634635a7') in 0.024204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.144265 seconds.
+  path: Assets/Prefabs/EnemyShip0.prefab
+  artifactKey: Guid(6f240856342ba9949abff0ee25c4db88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0.prefab using Guid(6f240856342ba9949abff0ee25c4db88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6484037d318e4c183119890892905737') in 0.019867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 2.423904 seconds.
+  path: Assets/Prefabs/EnemyShip0.prefab
+  artifactKey: Guid(6f240856342ba9949abff0ee25c4db88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip0.prefab using Guid(6f240856342ba9949abff0ee25c4db88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568841a59bc17c74f9eafc0d73645262') in 0.015304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 21.305439 seconds.
+  path: Assets/Prefabs/EnemyShip3.prefab
+  artifactKey: Guid(d499f7d2b1c2f454dbedfbe80a21900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip3.prefab using Guid(d499f7d2b1c2f454dbedfbe80a21900f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5487faa1e6c3125af2eecfe16a63e1') in 0.023659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 45.597809 seconds.
+  path: Assets/EnemySets/EnemySet3.asset
+  artifactKey: Guid(e9d9c4cdc84c49b49820c5753475c03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/EnemySet3.asset using Guid(e9d9c4cdc84c49b49820c5753475c03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e727d8fa79417450391cd401f5cf40b8') in 0.011885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 81.427472 seconds.
+  path: Assets/EnemySets/EnemySet4.asset
+  artifactKey: Guid(b110c9d32d201f748bad69b1f0fe698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/EnemySet4.asset using Guid(b110c9d32d201f748bad69b1f0fe698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a25228b31798e2a83dac6099a93080') in 0.001570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 119.845219 seconds.
+  path: Assets/EnemySets/EnemySet5.asset
+  artifactKey: Guid(1b9b75f22d42bd84980b67b43787296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/EnemySet5.asset using Guid(1b9b75f22d42bd84980b67b43787296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1d790973d32e72a5f4663de8d11813') in 0.002802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 98.971252 seconds.
+  path: Assets/EnemySets/EnemySet6.asset
+  artifactKey: Guid(0105c8a52649d8c4fa89d21c5d122911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/EnemySet6.asset using Guid(0105c8a52649d8c4fa89d21c5d122911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14af4e8f8ce6158b65ef383f8077e9c') in 0.001381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 53.666935 seconds.
+  path: Assets/EnemySets/EnemySet6.asset
+  artifactKey: Guid(0105c8a52649d8c4fa89d21c5d122911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/EnemySet6.asset using Guid(0105c8a52649d8c4fa89d21c5d122911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae977ce862e313ac70496219f9ca0e1e') in 0.033901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Documents\GitHub\UnitySpaceGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Documents\GitHub\UnitySpaceGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  6.959 seconds
+Refreshing native plugins compatible for Editor in 29.51 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 24.003 seconds
+Domain Reload Profiling: 30955ms
+	BeginReloadAssembly (1241ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (80ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (761ms)
+	RebuildCommonClasses (231ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (5380ms)
+		LoadAssemblies (4129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1493ms)
+			TypeCache.Refresh (1480ms)
+				TypeCache.ScanAssembly (1182ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (24004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1074ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (670ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 37.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4643 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (43.3 KB). Loaded Objects now: 5369.
+Memory consumption went from 156.2 MB to 156.2 MB.
+Total: 7.508500 ms (FindLiveObjects: 0.618700 ms CreateObjectMapping: 0.234100 ms MarkObjects: 6.246100 ms  DeleteObjects: 0.407900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93.628721 seconds.
+  path: Assets/EnemySets/EnemySet3.asset
+  artifactKey: Guid(e9d9c4cdc84c49b49820c5753475c03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/EnemySet3.asset using Guid(e9d9c4cdc84c49b49820c5753475c03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e08f150f2ca84fc67984109522da43') in 0.083669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/EnemySets/EnemySet5.asset
+  artifactKey: Guid(1b9b75f22d42bd84980b67b43787296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/EnemySet5.asset using Guid(1b9b75f22d42bd84980b67b43787296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2395e681ffe85100d479587f6a307a1') in 0.012464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 109.900883 seconds.
+  path: Assets/EnemySets/EnemySet5.asset
+  artifactKey: Guid(1b9b75f22d42bd84980b67b43787296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemySets/EnemySet5.asset using Guid(1b9b75f22d42bd84980b67b43787296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a00bd9e05f0c3826019a53278ca8fa') in 0.016576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Documents\GitHub\UnitySpaceGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lenovo\Documents\GitHub\UnitySpaceGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.734 seconds
+Refreshing native plugins compatible for Editor in 14.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.830 seconds
+Domain Reload Profiling: 4550ms
+	BeginReloadAssembly (335ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (1204ms)
+		LoadAssemblies (848ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (509ms)
+			TypeCache.Refresh (501ms)
+				TypeCache.ScanAssembly (479ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2831ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (803ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 23.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4643 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (44.1 KB). Loaded Objects now: 5373.
+Memory consumption went from 156.2 MB to 156.2 MB.
+Total: 6.319200 ms (FindLiveObjects: 0.407600 ms CreateObjectMapping: 0.219400 ms MarkObjects: 5.567700 ms  DeleteObjects: 0.123100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4901.332588 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a3990ed559cd5113a3e42860e1cad0') in 0.272373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
